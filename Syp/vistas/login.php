@@ -3,27 +3,28 @@
   <?php
 require 'header.php';
 ?>
-  <body class="hold-transition login-page">
+    <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="../../index2.html"><b>Lacteos la Vaca Lola</b></a>
+<b>Lacteos La Vaca Lola</b>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
-        <p class="login-box-msg">Ingrese sus datos de Acceso</p>
-        <form action="../../index2.html" method="post">
+        <p class="login-box-msg">Ingrese sus datos</p>
+        <form action="#" method="post">
           <div class="form-group has-feedback">
-            <input type="email" class="form-control" placeholder="Email" require>
+            <input type="email" class="form-control" placeholder="Email">
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
           </div>
           <div class="form-group has-feedback">
-            <input type="password" class="form-control" placeholder="Password" require>
+            <input type="password" class="form-control" placeholder="Password">
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
           </div>
           <div class="row">
             <div class="col-xs-8">
-              <div class="checkbox icheck">
+              <div class="checkbox-nice">
+              <input type="checkbox"> 
                 <label>
-                  <input type="checkbox"> Recordar
+Recordar
                 </label>
               </div>
             </div><!-- /.col -->
@@ -34,7 +35,7 @@ require 'header.php';
         </form>
 
         
-        <a href="#">Olvidé mi password</a><br>
+<!---      <a href="#">Olvidé mi password</a><br>-->
         
 
       </div><!-- /.login-box-body -->
